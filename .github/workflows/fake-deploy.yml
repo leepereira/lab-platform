@@ -26,6 +26,7 @@ jobs:
           echo "github.repository:  ${{ github.repository }}"
           echo "github.workflow:    ${{ github.workflow }}"
           echo "inputs.environment: ${{ inputs.environment }}"
+          echo "VERSION 2"
 
       - name: Invoke (pretend to push manifests)
         id: invoke
